@@ -1,0 +1,19 @@
+body{
+	font: 14px/1.4em Arial, Helvetica, sans-serif;background:#EEE;color:#333;padding:0;margin:0;
+}
+h1{
+	font: 30px/50px Arial, Helvetica, sans-serif;margin-bottom:15px;
+}
+.page{
+	background:#FFF;
+	width:900px;
+	padding:30px;
+	border:solid 1px #CCC;
+	margin:30px auto;
+	min-height:400px;
+}
+
+.fc-inner-fore{background:#FDD;}
+.fc-inner-back{background:#DFD;}
+
+.flipcatalog,.fc-slide,.fc-inner-fore,.fc-inner-back,.fc-mask{height:300px}

@@ -1,0 +1,27 @@
+.flipcatalog,
+.fc-slide,
+.fc-inner-fore,
+.fc-inner-back,
+.fc-mask{padding:0;margin:0;width:100%;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+
+.flipcatalog{position:relative;border:#CCC solid 1px;background:#EEE;overflow: hidden;box-shadow:  0 2px 12px rgba(0,0,0,.5);}
+
+.fc-slide,
+.fc-inner-fore,
+.fc-inner-back,
+.fc-shine,
+.fc-mask{position:absolute;top:0;}
+
+.fc-mask{left:100%;overflow: hidden;}
+.fc-inner-fore{left:100%;xbox-shadow:  -2px 0 2px rgba(0,0,0,.5);}
+.fc-inner-back{left:-100%;}
+
+
+.fc-shine{left:100%;top:-10%;width:120%;height:120%;display:none;
+
+box-shadow: inset 2px 0 2px rgba(0,0,0,.5),-2px 0 2px rgba(255,255,255,1);
+}
+
+
+
+
